@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* main js */
+.btn-primary {
+  --bs-btn-bg: none !important;
+  color: #000 !important;
+  border: 1px solid gray;
+  border-radius: 0 !important;
+}
+.btn-primary:hover {
+  background-color: darkturquoise !important;
+  color: white !important;
+}
+.offcanvas-header {
+  justify-content: initial !important;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: none !important;
+  color: none !important ;
+  outline: none !important;
+  background-color: none !important;
+}
+.form-select:focus {
+  border-color: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.anticon {
+  vertical-align: 0% !important;
+}
+.offcanvas-body {
+  padding: 0 !important;
+}
